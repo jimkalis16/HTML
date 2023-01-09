@@ -1,19 +1,10 @@
 body {
   background-color:#121212;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:0;
-    padding: 0;
-}
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding: 0;
 
-.mainarea{
-  display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-contnet:center;
-  width:100%;
-	height:100vh;
 }
 
 h1{
@@ -21,17 +12,34 @@ h1{
 	text-align:center;
 }
 
+.mainarea{
+  display:flex;
+	align-items:center;
+	justify-contnet:right;
+  width:100%;
+	height:100%;
+    border: solid red;
+}
+
 #row{
     display:flex;
     overflow:hidden;
-    height:100vh;
-    width:100vw;
+    height:100%;
+    width:100%;
 }
 
 #container{
-  	display:flex;
+  display:flex;
 	flex-direction:column;
 	align-items:center;
 	justify-content:space-evenly;
   background-color:grey;
+  height:100%;
+  width:100%;
+}
+
+.chose{
+  color:#252525;
+  font-size:100%;
+  margin:100%;
 }
