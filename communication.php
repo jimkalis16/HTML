@@ -15,11 +15,11 @@
     </h1>
     <div class="mainarea">
       <div id="container">
-        <button class="chose" onclick="window.location.href='index.html';">Αρχική σελίδα </button>
-        <button class="chose" onclick="window.location.href='announcement.html';">Ανακοινώσεις </button>
-        <button class="chose" onclick="window.location.href='communication.html';">Επικοινωνία </button>
-        <button class="chose" onclick="window.location.href='documents.html ';">Έγραφα μαθήματος </button>
-        <button class="chose" onclick="window.location.href='homework.html';">Εργασίες </button>
+        <button class="chose" onclick="window.location.href='index.php';">Αρχική σελίδα </button>
+        <button class="chose" onclick="window.location.href='announcement.php';">Ανακοινώσεις </button>
+        <button class="chose" onclick="window.location.href='communication.php';">Επικοινωνία </button>
+        <button class="chose" onclick="window.location.href='documents.php ';">Έγραφα μαθήματος </button>
+        <button class="chose" onclick="window.location.href='homework.php';">Εργασίες </button>
       </div>
       <div id="announcement">
         <div class="first">
